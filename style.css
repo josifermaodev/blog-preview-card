@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&display=swap');
+
+:root {
+    --main-color: #F4D04E;
+    --text-color: #6B6B6B;
+    --title-color: #111111;
+    --primary-color: #FFFFFF;
+
+    --main-font: 'Figtree', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: var(--main-color);
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container__card {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 280px;
+    border: 1px solid var(--title-color);
+    box-shadow: 7px 7px 0px 3px var(--title-color);
+}
+
+.card__image {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.container__text {
+    padding-top: 24px;
+}
+
+.card__text{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0.5rem;
+    background: var(--main-color);
+    max-width: 5rem;
+    border-radius: 5px;
+}
+
+.card__day, .card__description {
+    font-size: 12px;
+    padding-top: 12px;
+    color: var(--text-color);
+}
+
+.card__day {
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.card__title {
+    font-weight: 800;
+    font-size: 16px;
+    padding-top: 12px;
+    transition: color 0.5s ease;
+}
+
+.card__title:hover {
+    color: var(--main-color);
+}
+
+.card__paragraph {
+    font-weight: 400;
+}
+
+.container__author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.author__img {
+    width: 30px;
+}
+
+.author__name {
+    font-size: 14px;
+}
