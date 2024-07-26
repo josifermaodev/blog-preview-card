@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [My site](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/blog-preview-card-solution-0GPKZZeFma)
+- Live Site URL: [My site](https://blog-preview-card-pi-red.vercel.app/)
 
 ## My process
 
